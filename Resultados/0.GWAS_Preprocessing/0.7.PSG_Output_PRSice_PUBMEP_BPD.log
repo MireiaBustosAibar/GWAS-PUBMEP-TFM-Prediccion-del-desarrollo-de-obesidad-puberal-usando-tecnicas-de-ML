@@ -1,0 +1,82 @@
+PRSice 2.3.3 (2020-08-05) 
+https://github.com/choishingwan/PRSice
+(C) 2016-2020 Shing Wan (Sam) Choi and Paul F. O'Reilly
+GNU General Public License v3
+If you use PRSice in any published work, please cite:
+Choi SW, O'Reilly PF.
+PRSice-2: Polygenic Risk Score Software for Biobank-Scale Data.
+GigaScience 8, no. 7 (July 1, 2019)
+2022-05-16 09:43:38
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/3_PRSs_PRSice/3.1_Inputs/PRSice_linux \
+    --a1 A1 \
+    --a2 A2 \
+    --all-score  \
+    --bar-levels 5e-08,5e-06,0.0001,0.001,0.01,0.05,0.1,0.2,0.5,1 \
+    --base /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/3_PRSs_PRSice/3.1_Inputs/base_data.txt \
+    --base-info INFO:0.9 \
+    --binary-target T \
+    --bp BP \
+    --chr CHR \
+    --clump-kb 250kb \
+    --clump-p 1.000000 \
+    --clump-r2 0.100000 \
+    --interval 5e-05 \
+    --lower 5e-08 \
+    --num-auto 22 \
+    --or  \
+    --out /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/3_PRSs_PRSice/3.2_Outputs/2.ISGlobal/PUBMEP_BPD_ISGlobal \
+    --perm 10000 \
+    --pvalue P \
+    --seed 3004758391 \
+    --snp SNP \
+    --stat OR \
+    --target /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/3_PRSs_PRSice/3.1_Inputs/PUBMEP_HRC.merged.sex.nohh.rs \
+    --thread 10 \
+    --upper 0.5
+
+Initializing Genotype file: 
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/3_PRSs_PRSice/3.1_Inputs/PUBMEP_HRC.merged.sex.nohh.rs 
+(bed) 
+
+Start processing base_data 
+================================================== 
+
+Base file: 
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/3_PRSs_PRSice/3.1_Inputs/base_data.txt 
+Header of file is: 
+SNP OR SE P CHR BP A1 A2 FRQ_A_20352 FRQ_U_31358 INFO ngt 
+Dir HetISqt HetDf HetPVa Nca Nco Neff 
+
+13413238 variant(s) observed in base file, with: 
+5975261 variant(s) with INFO score less than 0.900000 
+1061457 ambiguous variant(s) excluded 
+6376520 total variant(s) included from base file 
+
+Loading Genotype info from target 
+================================================== 
+
+144 people (67 male(s), 71 female(s)) observed 
+144 founder(s) included 
+
+Warning: Currently not support haploid chromosome and sex 
+         chromosomes 
+
+2388549 variant(s) not found in previous data 
+673 variant(s) with mismatch information 
+3505504 variant(s) included 
+
+There are a total of 1 phenotype to process 
+
+Start performing clumping 
+
+Number of variant(s) after clumping : 109413 
+
+Processing the 1 th phenotype 
+
+Phenotype is a binary phenotype 
+46 control(s) 
+83 case(s) 
+
+There are 1 region(s)/phenotype(s) with p-value > 0.1 (not 
+significant). 
+

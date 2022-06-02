@@ -1,0 +1,38 @@
+Options Set:
+Reference Panel:             HRC
+Bim filename:                /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/1_Binary_Plink_files_and_freq/GWAS_PUBMEP_hg19_binary.bim
+Reference filename:          /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/1_Binary_Plink_files_and_freq/reference_panels_HRC_r1/HRC.r1-1.GRCh37.wgs.mac5.sites.tab
+Allele frequencies filename: /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/1_Binary_Plink_files_and_freq/GWAS_PUBMEP_hg19_binary.frq
+Allele frequency threshold:  0.2
+
+
+Matching to HRC
+
+Position Matches
+ ID matches HRC 280965
+ ID Doesn't match HRC 302531
+ Total Position Matches 583496
+ID Match
+ Different position to HRC 8
+No Match to HRC 52824
+Skipped (X, XY, Y, MT) 4137
+Total in bim file 651563
+Total processed 640465
+
+Indels (ignored in r1) 10096
+
+SNPs not changed 41599
+SNPs to change ref alt 433866
+Strand ok 259496
+Total Strand ok 475465
+
+Strand to change 255954
+Total checked 583504
+Total checked Strand 515450
+Total removed for allele Frequency diff > 0.2 2513
+Palindromic SNPs with Freq > 0.4 490
+
+
+Non Matching alleles 67564
+ID and allele mismatching 53024; where HRC is . 645
+Duplicates removed 1002

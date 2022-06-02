@@ -1,0 +1,39 @@
+PLINK v1.90b3.31 64-bit (3 Feb 2016)
+Options in effect:
+  --a1-allele /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.2_runImputation_Outputs/2.2.1_perl_outputs/Force-Allele1-GWAS_PUBMEP_hg19_binary-HRC.txt
+  --bfile /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.2_runImputation_Outputs/2.2.2_runPlink_outputs/TEMP4
+  --make-bed
+  --out /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.2_runImputation_Outputs/2.2.2_runPlink_outputs/GWAS_PUBMEP_hg19_binary-updated
+
+Hostname: NUTRICION54
+Working directory: /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.2_runImputation_Outputs
+Start time: Tue Apr 12 23:46:31 2022
+
+Random number seed: 1652219191
+64275 MB RAM detected; reserving 32137 MB for main workspace.
+512937 variants loaded from .bim file.
+144 people (67 males, 71 females, 6 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.2_runImputation_Outputs/2.2.2_runPlink_outputs/GWAS_PUBMEP_hg19_binary-updated.nosex
+.
+129 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 144 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 427 het. haploid genotypes present (see
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.2_runImputation_Outputs/2.2.2_runPlink_outputs/GWAS_PUBMEP_hg19_binary-updated.hh
+); many commands treat these as missing.
+Total genotyping rate is 0.999389.
+--a1-allele: 512937 assignments made.
+512937 variants and 144 people pass filters and QC.
+Among remaining phenotypes, 83 are cases and 46 are controls.  (15 phenotypes
+are missing.)
+--make-bed to
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.2_runImputation_Outputs/2.2.2_runPlink_outputs/GWAS_PUBMEP_hg19_binary-updated.bed
++
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.2_runImputation_Outputs/2.2.2_runPlink_outputs/GWAS_PUBMEP_hg19_binary-updated.bim
++
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.2_runImputation_Outputs/2.2.2_runPlink_outputs/GWAS_PUBMEP_hg19_binary-updated.fam
+... done.
+
+End time: Tue May 10 23:46:31 2022
