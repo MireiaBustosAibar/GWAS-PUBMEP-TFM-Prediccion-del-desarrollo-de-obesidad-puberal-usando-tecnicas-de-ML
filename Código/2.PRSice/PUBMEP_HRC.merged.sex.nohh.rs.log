@@ -1,0 +1,42 @@
+PLINK v1.90b3.31 64-bit (3 Feb 2016)
+Options in effect:
+  --const-fid
+  --make-bed
+  --out /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.4_postImputation_Outputs/2.4.3/PUBMEP_HRC.merged.sex.nohh.rs
+  --vcf /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.4_postImputation_Outputs/2.4.2_ImpVCF_QC/PUBMEP_HRC.merged.sex.nohh.vcf.gz
+
+Hostname: NUTRICION54
+Working directory: /mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.4_postImputation_Outputs
+Start time: Fri May 13 23:04:35 2022
+
+Random number seed: 1652475875
+64275 MB RAM detected; reserving 32137 MB for main workspace.
+--vcf:
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.4_postImputation_Outputs/2.4.3/PUBMEP_HRC.merged.sex.nohh.rs-temporary.bed
++
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.4_postImputation_Outputs/2.4.3/PUBMEP_HRC.merged.sex.nohh.rs-temporary.bim
++
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.4_postImputation_Outputs/2.4.3/PUBMEP_HRC.merged.sex.nohh.rs-temporary.fam
+written.
+6074887 variants loaded from .bim file.
+144 people (67 males, 71 females, 6 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.4_postImputation_Outputs/2.4.3/PUBMEP_HRC.merged.sex.nohh.rs.nosex
+.
+129 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked.
+Before main variant filters, 144 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999997.
+6074887 variants and 144 people pass filters and QC.
+Among remaining phenotypes, 83 are cases and 46 are controls.  (15 phenotypes
+are missing.)
+--make-bed to
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.4_postImputation_Outputs/2.4.3/PUBMEP_HRC.merged.sex.nohh.rs.bed
++
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.4_postImputation_Outputs/2.4.3/PUBMEP_HRC.merged.sex.nohh.rs.bim
++
+/mnt/9e33c15a-acae-4445-96c2-5ebe80a1c36a/MIREIA/GWAS_IMPUTATION/GWAS_GRANADA/1_GWAS_GR_HELIX_protocol/GWAS_PROCESSING/2.4_postImputation_Outputs/2.4.3/PUBMEP_HRC.merged.sex.nohh.rs.fam
+... done.
+
+End time: Fri May 13 23:04:49 2022
