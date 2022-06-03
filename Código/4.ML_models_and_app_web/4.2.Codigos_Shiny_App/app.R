@@ -1,33 +1,11 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-
-# https://www.codementor.io/@packt/producing-layout-in-rows-and-columns-with-shiny-qcjj8szq0
-# https://github.com/eirr82/DGER-/blob/master/ui.R
-# https://shiny.rstudio.com/articles/download.html
-
-
-
-
-
-# Name for the Shiny API ----
-##Construction of ML models based on GRSs and environmental variables for prediction of severe obesity in children (PRSity)
-
-
-
 ## Features names 
 data = read.table("www/datos_score.csv",row.names=1,header=TRUE)
 names1 = rownames(data)
 names = names1[2:length(names1)]
 
 credentials <- data.frame(
-  user = c("12345678", "mireiaTFM2022"), # mandatory
-  password = c("87654321", "PRS_obesity_2022"), # mandatory
+  user = ("mireiaTFM2022"), # mandatory
+  password = ("PRS_obesity_2022"), # mandatory
   start = c("2022-05-16"), # optinal (all others)
   expire = c(NA, "2022-09-30"),
   admin = c(FALSE, TRUE),
